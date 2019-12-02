@@ -1,3 +1,8 @@
 import React from "react"
+import Layout from "../components/Layout"
 
-export default () => <div className="text-6xl">Hello world!</div>
+export default (props) =>  {
+    return (
+        <Layout></Layout>
+    );
+};
